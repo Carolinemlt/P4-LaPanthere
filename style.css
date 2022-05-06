@@ -679,6 +679,16 @@ a {
 p {
     font-size: 14px;
 }
+blockquote {
+    margin: 0;
+   
+}
+.text-citation {
+    font-size: 20px;
+}
+.author-citation {
+    font-size: 20px;
+}
 
 .tight-width-whitespace {
     max-width: 600px;
