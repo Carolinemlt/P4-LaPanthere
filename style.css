@@ -371,7 +371,9 @@ footer ul {
 footer li {
     list-style-type: none;
 }
-
+footer p {
+    text-transform: uppercase;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -662,7 +664,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -722,7 +724,7 @@ blockquote {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto;
 }
 
 h2 {
@@ -774,8 +776,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(20 18 14 / 70%);
     padding: 40px 40px 40px 40px;
+    border-radius: 50px;
 }
 
 .bold-link {
@@ -796,7 +799,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
